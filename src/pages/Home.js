@@ -16,26 +16,7 @@ import {
 import { SiTypescript, SiTailwindcss, SiMysql, SiFigma, SiExpress, SiJira, SiMongodb } from 'react-icons/si';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
-const experiences = [
-  {
-    title: "Développeuse Full Stack",
-    company: "UMT",
-    period: "2023 - Présent",
-    description: "Développement d'une application web pour l'Union Marocaine du Travail avec React et Laravel."
-  },
-  {
-    title: "Développeuse Front-end",
-    company: "PestKit",
-    period: "2023",
-    description: "Création d'une interface utilisateur moderne pour une application de gestion des services de dératisation."
-  },
-  {
-    title: "Développeuse Web",
-    company: "LETDEM",
-    period: "2023",
-    description: "Développement d'un site web pour le laboratoire LETDEM avec gestion des événements et travaux doctoraux."
-  }
-];
+
 
 const featuredProjects = [
   {
@@ -107,7 +88,7 @@ const Home = () => {
             animate="visible"
             className="grid md:grid-cols-2 gap-12 items-center"
           >
-            {/* Section Texte */}
+          
             <motion.div variants={itemVariants}>
               <motion.p
                 initial={{ opacity: 0, x: -20 }}
