@@ -50,7 +50,7 @@ const projects = [
     technologies: ['ReactJS','HTML','Tailwind CSS'],
     image: '/images/Portfolio.png',
     github: 'https://github.com/YoussraEttaleby12',
-    live: 'https://labo-letdem.com',
+    live: 'https://youssraettaleby-portfolio.vercel.app/',
   },
 ];
 
